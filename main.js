@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function (event){});
 
-function calc() {
+function calculate() {
     let number = Number(document.getElementById("Warpstones_Count").value);
     let price = Number(document.getElementById("Warpstone_Price").value);
 
