@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function (event){});
 
-function calculate() {
+function calc() {
     let number = Number(document.getElementById("Warpstones_Count").value);
     let price = Number(document.getElementById("Warpstone_Price").value);
 
@@ -17,8 +17,8 @@ function calculate() {
     } else if (price == "") {
         alert("You are not input price of warpstones");
     } else {
-        const cost = number * price;
+        const tprice = number * price;
         document.getElementById("cost").innerHTML =
-            "TOtal price of warpstone is: " + cost;
+            "TOtal price of warpstone is: " + tprice;
     }
 }
