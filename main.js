@@ -1,5 +1,6 @@
-window.addEventListener("DOMContentLoaded", function (event){});
-
+window.addEventListener("DOMContentLoaded", function (event) {
+    console.log("DOM fully loaded and parsed");
+});
 function calc() {
     let number = Number(document.getElementById("Warpstones_Count").value);
     let price = Number(document.getElementById("Warpstone_Price").value);
